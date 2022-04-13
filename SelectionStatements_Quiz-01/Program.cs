@@ -218,213 +218,213 @@ namespace Operators_Quiz_01
             var wrongCount = 0;
             string guess;
 
+            //do
+            //{
+            //    Console.WriteLine("The __ statement is the first form of Selection Statements");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer1 != guess);
+
+            //do
+            //{
+            //    Console.WriteLine("The __/____ statement is the second form of Selection Statements (include the / in the answer)");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer1)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer1 != guess);
+
+            //do
+            //{
+            //    Console.WriteLine("The __/____/___ statement is the third form of Selection Statements (include the / in the answer)");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer2)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer2 != guess);
+
+            //do
+            //{
+            //    Console.WriteLine("True or False: You can have as many `else if` statements that you require??");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer3)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer3 != guess);
+
+            //do
+            //{
+            //    Console.WriteLine("True or False: The Ternary Operator is syntax sugar for an if/else statement?");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer4)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer4 != guess);
+
+            //do
+            //{
+            //    Console.WriteLine("What is the value of x in this code: if (true){ x = 10; } ");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer5)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer5 != guess);
+
+            //do
+            //{
+            //    Console.WriteLine("What is the value of x in this code: if (true){ x = 10; } else { x = 11; }");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer6)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer6 != guess);
+
+            //do
+            //{
+            //    Console.WriteLine("What is the value of x in this code: if (true){ x = 10; } else if (!true) { x = 11; } else { x = 12; }");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer7)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer7 != guess);
+
+            //do
+            //{
+            //    Console.WriteLine("What is the value of x in this code: int a = 0; int b = 1; if (a > b){ x = 10; } else if (b > a) { x = 11; } else { x = 12; }");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer8)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer8 != guess);
+
+            //do
+            //{
+            //    Console.WriteLine("What is the value of x in this code: int a = 0; int b = 0; if (a > b){ x = 10; } else if (b > a) { x = 11; } else { x = 12; }");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer9)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer9 != guess);
+
+            //do
+            //{
+            //    Console.WriteLine("True or False: When we have a Selection Statment that has many `else if's` it's best practice to use a `switch`?");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer10)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer1 != guess);
+
+            //do
+            //{
+            //    Console.WriteLine("int a = 1; and int b = 2; So what is the value of this expression: \t bool answer = a > b;");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer11)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
+
+            //} while (answer1 != guess);
+
             do
             {
-                Console.WriteLine("The equal sign  `=`  is the _______ operator.");
-                guess = Console.ReadLine();
-                if (guess == answer)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer1 != guess);
-
-            do
-            {
-                Console.WriteLine("x += 20; What is the long form of this code?");
-                guess = Console.ReadLine();
-                if (guess == answer1)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer1 != guess);
-
-            do
-            {
-                Console.WriteLine("x -= 1000; What is the long form of this code?");
-                guess = Console.ReadLine();
-                if (guess == answer2)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer2 != guess);
-
-            do
-            {
-                Console.WriteLine("x *= 20; What is the long form of this code?");
-                guess = Console.ReadLine();
-                if (guess == answer3)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer3 != guess);
-
-            do
-            {
-                Console.WriteLine("x /= 20; What is the long form of this code?");
-                guess = Console.ReadLine();
-                if (guess == answer4)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer4 != guess);
-
-            do
-            {
-                Console.WriteLine("What is the % operator called?");
-                guess = Console.ReadLine();
-                if (guess == answer5)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer5 != guess);
-
-            do
-            {
-                Console.WriteLine("x %= 20; What is the long form of this code?");
-                guess = Console.ReadLine();
-                if (guess == answer6)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer6 != guess);
-
-            do
-            {
-                Console.WriteLine("x++; What is the long form of this code?");
-                guess = Console.ReadLine();
-                if (guess == answer7)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer7 != guess);
-
-            do
-            {
-                Console.WriteLine("x--; What is the long form of this code?");
-                guess = Console.ReadLine();
-                if (guess == answer8)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer8 != guess);
-
-            do
-            {
-                Console.WriteLine("++x; Is the ____ operator. (use a dash - between the first word [Example: pre-increment or post-increment])");
-                guess = Console.ReadLine();
-                if (guess == answer9)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer9 != guess);
-
-            do
-            {
-                Console.WriteLine("x++; Is the ____ operator. (use a dash - between the first word Ex: pre-increment or post-increment)");
-                guess = Console.ReadLine();
-                if (guess == answer10)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer1 != guess);
-
-            do
-            {
-                Console.WriteLine("int a = 1; and int b = 2; So what is the value of this expression: \t bool answer = a > b;");
-                guess = Console.ReadLine();
-                if (guess == answer11)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
-
-            } while (answer1 != guess);
-
-            do
-            {
-                Console.WriteLine("int a = 1; and int b = 2; So what is the value of this expression: \t bool answer = a < b;");
+                Console.WriteLine("What is the value of x in this code: \n\nconst int _favoriteNumber = 7;\n\nswitch (_favoriteNumber)\n{\ncase 0:\n\tx = 0;\n\tbreak;\ncase 1:\n\tx = 1;\n\tbreak;\ncase 2:\n\tx = 2;\n\tbreak;\ncase 3:\n\tx = 3;\n\tbreak;\ncase 4:\n\tx = 4;\n\tbreak;\ncase 5:\n\tx = 5;\n\tbreak;\ncase 6:\n\tx = 6;\n\tbreak;\ncase 7:\n\tx = 100;\n\tbreak;\ncase 8:\n\tx = 8;\n\tbreak;\ncase 9:\n\tx = 9;\n\tbreak;\ncase 10:\n\tx = 10;\n\tbreak;\ndefault:\n\tx = 11;\n\tbreak;\n}");
                 guess = Console.ReadLine();
                 if (guess == answer12)
                 {
@@ -439,141 +439,141 @@ namespace Operators_Quiz_01
 
             } while (answer1 != guess);
 
-            do
-            {
-                Console.WriteLine("int a = 0; and int b = 0; So what is the value of this expression: \t bool answer = a >= b;");
-                guess = Console.ReadLine();
-                if (guess == answer13)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
+            //do
+            //{
+            //    Console.WriteLine("int a = 0; and int b = 0; So what is the value of this expression: \t bool answer = a >= b;");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer13)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
 
-            } while (answer1 != guess);
+            //} while (answer1 != guess);
 
-            do
-            {
-                Console.WriteLine("int a = 1; and int b = 1; So what is the value of this expression: \t bool answer = a <= b;");
-                guess = Console.ReadLine();
-                if (guess == answer14)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
+            //do
+            //{
+            //    Console.WriteLine("int a = 1; and int b = 1; So what is the value of this expression: \t bool answer = a <= b;");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer14)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
 
-            } while (answer1 != guess);
+            //} while (answer1 != guess);
 
-            do
-            {
-                Console.WriteLine("int a = 1; and int b = 1; So what is the value of this expression: \t bool answer = a != b;");
-                guess = Console.ReadLine();
-                if (guess == answer15)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
+            //do
+            //{
+            //    Console.WriteLine("int a = 1; and int b = 1; So what is the value of this expression: \t bool answer = a != b;");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer15)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
 
-            } while (answer1 != guess);
+            //} while (answer1 != guess);
 
-            do
-            {
-                Console.WriteLine("int a = 1; and int b = 2; So what is the value of this expression: \t bool answer = a == b;");
-                guess = Console.ReadLine();
-                if (guess == answer16)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
+            //do
+            //{
+            //    Console.WriteLine("int a = 1; and int b = 2; So what is the value of this expression: \t bool answer = a == b;");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer16)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
 
-            } while (answer1 != guess);
+            //} while (answer1 != guess);
 
-            do
-            {
-                Console.WriteLine("int a = 1; and int b = 2; int c = 3; and int d = 4; So what is the value of this expression: \t bool answer = (a != b) && (c == d); ");
-                guess = Console.ReadLine();
-                if (guess == answer17)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
+            //do
+            //{
+            //    Console.WriteLine("int a = 1; and int b = 2; int c = 3; and int d = 4; So what is the value of this expression: \t bool answer = (a != b) && (c == d); ");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer17)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
 
-            } while (answer1 != guess);
+            //} while (answer1 != guess);
 
-            do
-            {
-                Console.WriteLine("int a = 1; and int b = 2; int c = 3; and int d = 4; So what is the value of this expression: \t bool answer = (a == b) || (c != d); ");
-                guess = Console.ReadLine();
-                if (guess == answer18)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
+            //do
+            //{
+            //    Console.WriteLine("int a = 1; and int b = 2; int c = 3; and int d = 4; So what is the value of this expression: \t bool answer = (a == b) || (c != d); ");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer18)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
 
-            } while (answer1 != guess);
+            //} while (answer1 != guess);
 
-            do
-            {
-                Console.WriteLine("int a = 1; and int b = 2; int c = 3; and int d = 4; So what is the value of this expression: \t bool answer = !(a == b) || (c == d);");
-                guess = Console.ReadLine();
-                if (guess == answer19)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
+            //do
+            //{
+            //    Console.WriteLine("int a = 1; and int b = 2; int c = 3; and int d = 4; So what is the value of this expression: \t bool answer = !(a == b) || (c == d);");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer19)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
 
-            } while (answer1 != guess);
+            //} while (answer1 != guess);
 
-            do
-            {
-                Console.WriteLine("This expression uses the _______ operator: \t");
-                guess = Console.ReadLine();
-                if (guess == answer20)
-                {
-                    Console.WriteLine("Correct!");
-                    AddSpaces(1);
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    wrongCount++;
-                }
+            //do
+            //{
+            //    Console.WriteLine("This expression uses the _______ operator: \t");
+            //    guess = Console.ReadLine();
+            //    if (guess == answer20)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        AddSpaces(1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Try again");
+            //        wrongCount++;
+            //    }
 
-            } while (answer1 != guess);
+            //} while (answer1 != guess);
 
             var time = sw.Elapsed.TotalSeconds;
 
